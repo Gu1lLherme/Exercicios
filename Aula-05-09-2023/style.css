@@ -1,0 +1,39 @@
+body{
+    background-color: white;
+}
+
+
+h1{
+    font-style: italic;
+    color: white;
+    background-color: blue;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border:solid 3px black;
+    margin: auto;
+    display: block;
+    width: max-content;
+}
+
+.frutas{
+    border:solid 3px black;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    margin: auto;
+    width: 50%; 
+    background-color: blue;
+    color: white;
+
+}
+
+.lista{
+    color:black;
+    list-style-position:inside;
+    width: max-content;
+    text-align: center
+    
+}
