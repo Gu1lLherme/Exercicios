@@ -1,14 +1,6 @@
-body{
-    background-color: lightblue;
-
-}
-
-h1{
-    color: white;
+#pg1 {
     text-align: center;
-}
+    color: red;
+    font-family: 'Lucida Sans';
 
-p{
-    font-family: verdana;
-    font-size: 20px;
 }
