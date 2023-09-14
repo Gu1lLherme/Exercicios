@@ -1,11 +1,41 @@
-.borda_1 {
-    border: solid 2px black;
+.t1 {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: max-content;
+    padding: 10px 10px;
 }
 
-.borda_2{
-    border: 2px solid tomato;
+.t2 {
+    background-color: rgb(60, 60, 60);
+    color: white;
+    width: max-content;
+    padding: 10px 10px;
 }
 
-.borda_3{
-    border: 2px solid dodgerblue;
+.t3 {
+    background-color: rgb(120, 120, 120);
+    color: white;
+    width: max-content;
+    padding: 10px 10px;
+}
+
+.t4 {
+    background-color: rgb(180, 180, 180);
+    color: white;
+    width: max-content;
+    padding: 10px 10px;
+    
+}
+.t5 {
+    background-color: rgb(240, 240, 240);
+    color: white;
+    width: max-content;
+    padding: 10px 10px;
+}
+
+.t6 {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: max-content;
+    padding: 10px 10px;
 }
