@@ -1,7 +1,11 @@
 h1{
-    background-color: dodgerblue;
+    color: dodgerblue;
 }
 
 p {
-    background-color: tomato;
+    color: tomato;
+}
+
+p.lor {
+    color: green;
 }
