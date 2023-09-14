@@ -1,11 +1,11 @@
-h1{
-    color: dodgerblue;
+.borda_1 {
+    border: solid 2px black;
 }
 
-p {
-    color: tomato;
+.borda_2{
+    border: 2px solid tomato;
 }
 
-p.lor {
-    color: green;
+.borda_3{
+    border: 2px solid dodgerblue;
 }
