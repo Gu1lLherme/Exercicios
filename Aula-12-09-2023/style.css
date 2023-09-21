@@ -1,6 +1,10 @@
-h1 {
-    background-color: green;
+body {
+    background-image: url("paper.gif");
+}
 
+h1 {
+    background-color: rgb(0, 128, 0, 0.7);
+    
 }
 
 div {
