@@ -3,15 +3,67 @@ body {
 }
 
 h1 {
-    background-color: rgb(0, 128, 0, 0.7);
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px 15px 15px 15px;
+}
+div.texto-1{
     
+    border: 8px groove;
+    border-color: red green blue yellow;
+    background-color: wheat;
+
 }
 
-div {
+div.texto-2 {
+    font-family: 'Gill Sans', 'Trebuchet MS';
+    border: 8px double black;
     background-color: dodgerblue;
 
 }
 
-p {
+div.texto-3{
+    max-width: 1000px;
+    
+    margin: auto;
+}
+
+p.texto-3{
+    border: 6px dotted dodgerblue;
+    background-color: azure;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+div.texto-4{
+    border: 2px solid black;
+    padding: 8px;
+}
+
+h3.texto-4{
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+
+}
+
+p.texto-4{
+    text-indent: 60px;
+    text-align: justify;
+    letter-spacing: 4px;
+}
+
+a.texto-4{
+    text-decoration: none;
+    color: #008CBA;
+}
+
+p.large {
     background-color: yellow;
+    font-size: 50px;
 }
