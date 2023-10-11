@@ -4,17 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>Site Aula</title>
-    <script type="text/javascript" src="JS/java.js"></script>
+    
 </head>
 <body>
     
     <form>
         <label for="data">Digite uma Data: </label>
         <input type="text" name="data" id="user-data">
-        <button type="button" onclick="conversor()"> Validar Data</button>
+        <button type="button" onclick="converter_valores()"> Validar Data</button>
     </form>
 
     <p id="resultado"></p>
+
+    <script>
+        function converter_valores(){
+            var data = document.getElementById("user-data").value;
+        
+            const partes = data.split("/");
+            if (partes.length !== 3) {
+                retorno = "Data inválida";
+            }
+
+
+
+
+
+
+            var resultado = document.getElementById("resultado");
+            resultado.textContent = retorno;
+        }
+
+    </script>
     
     
 </body>
