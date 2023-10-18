@@ -1,0 +1,27 @@
+body {
+    background-color: #f0ecdd;
+}
+
+h1{
+    color: #1ce8ab;
+    
+}
+
+.container{
+  
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.caixa{
+    background-color: #f0e7c2;
+    
+    width: 400px;;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border: ridge 1.5px black;
+    border-radius: 15px;
+}
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Jogo de Adivinhação</title>
+
+</head>
+
+<body>
+    <body>
+        <div class="container">
+            <div class="caixa">
+                <h1>Jogo de Adivinhação</h1>
+                <p>Tente adivinhar um número entre 1 e 100.</p>
+                <input type="text" id="guessField">
+                <input type="submit" value="Enviar Palpite" id="guessSubmit">
+                <p id="message"></p>
+            </div>
+        </div>
+        
+    
+        <script>
+            // Gerar um número aleatório entre 1 e 100
+            const randomNumber = Math.floor(Math.random() * 100) + 1;
+    
+            // Inicializar variáveis
+            let guessCount = 0;
+            let guess;
+    
+            const guessSubmit = document.getElementById("guessSubmit");
+            const guessField = document.getElementById("guessField");
+            const message = document.getElementById("message");
+    
+            guessSubmit.addEventListener("click", checkGuess);
+    
+            function checkGuess() {
+                guess = parseInt(guessField.value);
+                guessCount++;
+    
+                if (guess === randomNumber) {
+                    message.textContent = `Parabéns! Você encontrou o número ${randomNumber}, em ${guessCount} tentativas.` ;
+                    message.style.color = "green";
+                    setGameOver();
+                } else if (guess < randomNumber) {
+                    message.textContent = "Tente um número maior.";
+                    message.style.color = "red";
+                } else {
+                    message.textContent = "Tente um número menor.";
+                    message.style.color = "red";
+                }
+    
+                guessField.value = "";
+                guessField.focus();
+            }
+    
+            function setGameOver() {
+                guessField.disabled = true;
+                guessSubmit.disabled = true;
+            }
+        </script>
+    </body>
+    </html>
+</body>
+</html>
