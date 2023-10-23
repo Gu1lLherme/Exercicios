@@ -1,0 +1,67 @@
+.text{
+    margin-right: 3% !important;
+
+}
+
+.posicao{
+    margin-top: 10px;
+    position:relative;
+}
+.borda-container{
+    border: 1.5px solid gray;
+    border-radius: 10px;
+    position: relative;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.img{
+    width: 120%;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.alinhamento-div{
+    display: flex; /* Usando flexbox para alinhar horizontalmente */
+    align-items: flex-end; 
+    justify-content: center;
+}
+.alinhamento-direita-superior{
+    position: absolute;
+    width: 35%;
+    top: 0;
+    right: 0;
+    
+    padding: 10px; /* Espaçamento interno, pode ser ajustado conforme necessário */
+    margin-right: 8%;
+}
+
+.buttons {
+    display: flex; /* Para alinhar os botões horizontalmente */
+    margin-left: 35%;
+    padding-bottom: 10px;
+}
+.text-format {
+    
+    padding-top: 5%;
+    padding-right: 5%;
+}
+
+.text-heading{
+    font-family: 'Tahoma',  Verdana, sans-serif;    
+
+}
+
+.text-paragraph{
+    
+    font-family: "Georgia", Times, serif;
+    font-size:medium;
+}
+
+.body{
+    color: #aeccf2;
+}
+
+.bg-center{
+    background-color: #ededed !important;
+
+}
