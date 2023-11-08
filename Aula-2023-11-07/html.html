@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Funções em JavaScript</h1>
+
+    <h2>Função para encontrar o maior número:</h2>
+    <p>Array: [5, 10, 15, 20, 10, 30]</p>
+    <p>Maior número: <span id="maiorNumeroResult"></span></p>
+
+    <h2>Função para encontrar o menor número:</h2>
+    <p>Array: [5, 10, 15, 20, 10, 30]</p>
+    <p>Menor número: <span id="menorNumeroResult"></span></p>
+
+    <h2>Função para contar elementos em uma matriz:</h2>
+    <p>Array: [1, 2, 2, 3, 4, 2]</p>
+    <p>Elemento a ser contado: 2</p>
+    <p>O elemento 2 aparece <span id="contarElementosResult"></span> vezes na matriz.</p>
+
+    <h2>Função para inverter uma string:</h2>
+    <p>String original: "Hello, World!"</p>
+    <p>String invertida: <span id="inverterStringResult"></span></p>
+
+    <h2>Função para calcular o fatorial de um número:</h2>
+    <p>Número para calcular o fatorial: 5</p>
+    <p>Fatorial de 5: <span id="calcularFatorialResult"></span></p>
+
+    <div class="container">
+        <div class="primary">
+            <h1>Demonstração de função</h1>
+            <form>
+                <h3>Entradas</h3>
+                <label>Informe o 1° valor: </label>
+                <input type="text" id="valor_1" value="2" placeholder="Digite um valor inteiro" autocomplete="off">
+                <br>
+                <label>Informe o 2° valor: </label>
+                <input type="text" id="valor_2" value="2" placeholder="Digite um valor inteiro" autocomplete="off">
+                
+                <br>
+
+                <h3>Escolha uma Operação Aritmética</h3>
+                <button id="somaButton" onclick="somar()">Soma</button><br>
+                <button id="subtracaoButton" onclick="subtracao()">Subtração</button><br>
+                <button id="multiplicacaoButton" onclick="multiplicacao()">Multiplicação</button><br>
+                <button id="divisaoButton" onclick="divisao()">Divisão</button><br>
+            </form>
+            <p id="resposta">Resultado da Operação: </p><br>
+        </div>
+
+        <div class="secondary">
+            <h1>Calculadora de Média</h1>
+            <form id="mediaForm">
+                <label>Insira números separados por vírgula:</label>
+                <input type="text" id="numerosInput">
+                <button type="button" onclick="calcularMedia()">Calcular Média</button>
+            </form>
+            <p>A média é: <span id="resultadoMedia">-</span></p>
+        </div>
+
+        <div>
+            <h1>Maior Número</h1>
+            <form>
+                <label>Insira números separados por vírgula:</label>
+                <input type="text" id="maiorNumeroInput">
+                <button type="button" onclick="encontrarMaiorNumero()">Encontrar Maior Número</button>
+            </form>
+            <p>O maior número é: <span id="resultadoMaiorNumero">-</span></p>
+        </div>
+
+
+
+    </div>
+
+   
+
+    <script src="funcoes.js"></script>
+</body>
+
+</html>
