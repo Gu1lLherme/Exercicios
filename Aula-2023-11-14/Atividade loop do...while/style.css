@@ -1,0 +1,52 @@
+body{
+    top: 0;
+    background-color: #f9f6;
+}
+
+.btn{
+    position: relative;
+    
+    width: 200px;
+    height: 50px;
+    background-color: blueviolet;
+    border-style: outset;
+    border-radius: 150px;
+    color: white;
+    font-size: 22px;
+    justify-content: center;
+
+}
+
+.btn-2{
+    
+    position: relative;
+
+    width: 200px;
+    height: 50px;
+    background-color: blueviolet;
+    border-style: outset;
+    border-radius: 150px;
+    color: white;
+    font-size: 22px;
+    align-items: center;
+}
+
+.container{
+    
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.item{
+
+    align-items: center;
+    margin-left:40px;
+    margin-top: 20px;
+    padding: 20px;
+    border: solid white 1.5px;
+    height: 150px ;
+    width: 400px;
+}

@@ -1,3 +1,0 @@
-function conversor_data(){
-    
-}
